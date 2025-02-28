@@ -133,7 +133,6 @@ int main() {
     printf("O pib per capita da Carta 01 é maior que o pib per capita da Carta 02 ? %d\n", pibPerCapita1 > pibPerCapita2);
     printf("O super poder da Carta 01 é maior do que o super poder da Carta 02 ? %d\n", superPoderCarta01 > superPoderCarta02);
 
-    
 
     return 0;
 }
