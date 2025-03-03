@@ -133,6 +133,18 @@ int main() {
     printf("O pib per capita da Carta 01 é maior que o pib per capita da Carta 02 ? %d\n", pibPerCapita1 > pibPerCapita2);
     printf("O super poder da Carta 01 é maior do que o super poder da Carta 02 ? %d\n", superPoderCarta01 > superPoderCarta02);
 
+    //Comparação de um atributo
+    printf("COMPARAÇÃO DE CARTAS (Atributo:PIB) :\n");
+    printf("Carta 1 - %s ",nomecidade1);
+    printf(": %.2f\n",pibcidade1);
+    printf("Carta 2 - %s ",nomecidade2);
+    printf(": %.2f\n",pibcidade2);
+
+    if (pibcidade1 > pibcidade2) {
+        printf("Carta 1 venceu!");
+    }else {
+        printf("Carta 2 venceu! ");
+    }
 
     return 0;
 }
